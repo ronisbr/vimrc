@@ -7,6 +7,12 @@ filetype plugin indent on
 "                           General Configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Persistent undo.
+set undofile
+set undodir=~/.vim/undo
+set undolevels=1000
+set undoreload=10000
+
 " Set hidden.
 set hidden
 

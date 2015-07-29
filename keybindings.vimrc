@@ -22,6 +22,9 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 " NERDTree
 nmap <F6> :NERDTreeToggle<CR>
 
+" GUndo
+nmap <F7> :GundoToggle<CR>
+
 " TAGBAR
 nmap <F8> :TagbarToggle<CR>
 
