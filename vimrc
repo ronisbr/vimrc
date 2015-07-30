@@ -52,6 +52,7 @@ source ~/.vim/keybindings.vimrc
 source ~/.vim/confs/appearance.vimrc
 source ~/.vim/confs/airline.vimrc
 source ~/.vim/confs/dragvisuals.vimrc
+source ~/.vim/confs/julia-vim.vimrc
 source ~/.vim/confs/nerdcommenter.vimrc
 source ~/.vim/confs/neocomplete.vimrc
 source ~/.vim/confs/neosnippets.vimrc
