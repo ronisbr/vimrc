@@ -2,6 +2,22 @@
 " Key bindings for VIM
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Save file with C-S
+nmap    <C-s>   :w<CR>
+imap    <C-s>   <ESC>:w<CR>li
+vmap    <C-s>   <ESC>:w<CR>
+
+" Remap ; to : because : is much more used than ;
+nmap    ;   :
+
+" Navigation through buffers
+nmap    ,   :bprevious<CR>
+nmap    .   :bnext<CR>
+
+" Spell check
+nnoremap    <Leader>sc  :set spell<CR>
+nnoremap    <Leader>nsc :set nospell<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

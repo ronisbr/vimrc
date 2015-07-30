@@ -24,6 +24,9 @@ set smartindent
 " Set indents width.
 set softtabstop=4
 
+" Text width = 80
+set textwidth=80
+
 " Do not use TABS.
 set tabstop=4 
 set shiftwidth=4
@@ -31,6 +34,13 @@ set expandtab
 
 " Set comments mark.
 set comments +=fb:-
+
+" Set virtual editing for Visual Block mode
+set virtualedit=block
+
+" BS past autoindents, line boundaries and start of insertion
+" See :help 'backspace'
+set backspace=indent,eol,start
 
 " Key bindings.
 source ~/.vim/keybindings.vimrc
