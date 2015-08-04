@@ -28,7 +28,7 @@ set softtabstop=4
 set textwidth=80
 
 " Do not use TABS.
-set tabstop=4 
+set tabstop=4
 set shiftwidth=4
 set expandtab
 
@@ -73,5 +73,6 @@ source ~/.vim/confs/neocomplete.vimrc
 source ~/.vim/confs/neosnippets.vimrc
 source ~/.vim/confs/rainbow.vimrc
 source ~/.vim/confs/unite.vimrc
+source ~/.vim/confs/vim-better-whitespace.vimrc
 source ~/.vim/confs/vim-easymotion.vimrc
 source ~/.vim/confs/vim-latex.vimrc
