@@ -13,7 +13,7 @@ let loaded_markmargins=1
 let s:save_cpo = &cpo
 set cpo&vim
 
-highlight   ColorColumn   ctermbg=darkred   ctermfg=white
+highlight   ColorColumn ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 function! MarkMargin (on)
     if exists('b:MarkMargin')
