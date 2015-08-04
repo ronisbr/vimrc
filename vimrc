@@ -73,4 +73,5 @@ source ~/.vim/confs/neocomplete.vimrc
 source ~/.vim/confs/neosnippets.vimrc
 source ~/.vim/confs/rainbow.vimrc
 source ~/.vim/confs/unite.vimrc
+source ~/.vim/confs/vim-easymotion.vimrc
 source ~/.vim/confs/vim-latex.vimrc
