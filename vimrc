@@ -42,6 +42,21 @@ set virtualedit=block
 " See :help 'backspace'
 set backspace=indent,eol,start
 
+" Set line numbers.
+set number
+set relativenumber
+
+" Configure search behaviour.
+set incsearch
+set ignorecase
+set smartcase
+
+set hlsearch
+
+" This unset the "last search pattern" register by hitting return after a
+" search.
+nnoremap    <silent>    <CR>    :call HLNextOff()<CR>:nohlsearch<CR>
+
 " Key bindings.
 source ~/.vim/keybindings.vimrc
 
