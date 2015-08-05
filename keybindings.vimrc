@@ -18,6 +18,12 @@ nmap    .   :bnext<CR>
 nnoremap    <Leader>sc  :set spell<CR>
 nnoremap    <Leader>nsc :set nospell<CR>
 
+" Set window movement mapping.
+nnoremap    <Leader><Left>  <C-w>h
+nnoremap    <Leader><Down>  <C-w>j
+nnoremap    <Leader><Up>    <C-w>k
+nnoremap    <Leader><Right> <C-w>l
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
