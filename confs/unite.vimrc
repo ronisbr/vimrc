@@ -6,6 +6,10 @@
 let g:unite_source_history_yank_enable = 1
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
+" Record files in /media directory.
+let g:neomru#file_mru_ignore_pattern      = substitute(g:neomru#file_mru_ignore_pattern, '|/media/\\', '', '')
+let g:neomru#directory_mru_ignore_pattern = substitute(g:neomru#file_mru_ignore_pattern, '|/media/\\', '', '')
+
 nnoremap <F5>      :<C-u>Unite -no-split -buffer-name=buffer  buffer<cr>
 
 nnoremap <leader>t :<C-u>Unite -no-split -buffer-name=files   -start-insert file_rec/async:!<cr>
