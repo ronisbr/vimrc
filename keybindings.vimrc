@@ -11,8 +11,8 @@ vmap    <C-s>   <ESC>:w<CR>
 nmap    ;   :
 
 " Navigation through buffers
-nmap    ,   :bprevious<CR>
-nmap    .   :bnext<CR>
+nmap    <Leader>,       :bprevious<CR>
+nmap    <Leader>.       :bnext<CR>
 
 " Spell check
 nnoremap    <Leader>sc  :set spell<CR>
