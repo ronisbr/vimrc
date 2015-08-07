@@ -57,6 +57,10 @@ set hlsearch
 " search.
 nnoremap    <silent>    <CR>    :call HLNextOff()<CR>:nohlsearch<CR>
 
+" Set wrapping.
+set wrap linebreak nolist
+set display+=lastline
+
 " Key bindings.
 source ~/.vim/keybindings.vimrc
 

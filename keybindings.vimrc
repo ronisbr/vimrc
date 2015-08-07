@@ -24,6 +24,16 @@ nnoremap    <Leader><Down>  <C-w>j
 nnoremap    <Leader><Up>    <C-w>k
 nnoremap    <Leader><Right> <C-w>l
 
+" Set arrows to move arround display lines.
+noremap  <silent> <Up>   gk
+noremap  <silent> <Down> gj
+noremap  <silent> <Home> g<Home>
+noremap  <silent> <End>  g<End>
+inoremap <silent> <Up>   <C-o>gk
+inoremap <silent> <Down> <C-o>gj
+inoremap <silent> <Home> <C-o>g<Home>
+inoremap <silent> <End>  <C-o>g<End>
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
