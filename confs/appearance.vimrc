@@ -12,3 +12,8 @@ let g:rehash256 = 1
 if has('gui_running')
     set guifont=Monaco\ for\ Powerline\ 12
 endif
+
+" Set colorcolumn.
+set colorcolumn=+1
+highlight colorcolumn ctermbg=234 guibg=#222222
+
