@@ -46,6 +46,9 @@ set backspace=indent,eol,start
 set number
 set relativenumber
 
+" Set cursor line.
+set cursorline
+
 " Configure search behaviour.
 set incsearch
 set ignorecase
