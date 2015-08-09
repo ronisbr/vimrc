@@ -68,6 +68,9 @@ set display+=lastline
 set ttyfast
 set ttyscroll=3
 
+" Don't use ALT keys for menus.
+set winaltkeys=no
+
 " Key bindings.
 source ~/.vim/keybindings.vimrc
 
