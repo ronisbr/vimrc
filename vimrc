@@ -61,6 +61,10 @@ nnoremap    <silent>    <CR>    :call HLNextOff()<CR>:nohlsearch<CR>
 set wrap linebreak nolist
 set display+=lastline
 
+" Tweaks to improve the speed.
+set ttyfast
+set ttyscroll=3
+
 " Key bindings.
 source ~/.vim/keybindings.vimrc
 
