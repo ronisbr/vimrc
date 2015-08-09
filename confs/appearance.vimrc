@@ -22,5 +22,5 @@ highlight colorcolumn ctermbg=234 guibg=#282828
 
 " Set spell bad highlight GUI is not running.
 if !has("gui_running")
-    highlight SpellBad cterm=underline,italic ctermfg=red
+    highlight SpellBad cterm=italic ctermfg=red
 end
