@@ -71,6 +71,9 @@ set ttyscroll=3
 " Don't use ALT keys for menus.
 set winaltkeys=no
 
+" Crypt method.
+set cm=blowfish2
+
 " Key bindings.
 source ~/.vim/keybindings.vimrc
 
@@ -90,3 +93,4 @@ source ~/.vim/confs/unite.vimrc
 source ~/.vim/confs/vim-better-whitespace.vimrc
 source ~/.vim/confs/vim-easymotion.vimrc
 source ~/.vim/confs/vim-latex.vimrc
+source ~/.vim/confs/vimwiki.vimrc
