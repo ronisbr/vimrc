@@ -8,7 +8,10 @@ imap    <C-s>   <ESC>:w<CR>li
 vmap    <C-s>   <ESC>:w<CR>
 
 " Remap ; to : because : is much more used than ;
-nmap    ;   :
+nnoremap    ;   :
+nnoremap    :   ;
+xnoremap    ;   :
+xnoremap    :   ;
 
 " Navigation through buffers
 nmap    <Leader>,       :bprevious<CR>
