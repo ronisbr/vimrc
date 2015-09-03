@@ -74,6 +74,10 @@ set winaltkeys=no
 " Crypt method.
 set cm=blowfish2
 
+" Disable error/visual bell.
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+
 " Key bindings.
 source ~/.vim/keybindings.vimrc
 
