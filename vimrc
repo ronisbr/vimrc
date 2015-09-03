@@ -78,6 +78,10 @@ set cm=blowfish2
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
+" Set wild menu.
+set wildmenu
+set wildmode=full
+
 " Key bindings.
 source ~/.vim/keybindings.vimrc
 
