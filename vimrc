@@ -7,6 +7,9 @@ filetype plugin indent on
 "                           General Configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" History of commands.
+set history=1000
+
 " Persistent undo.
 if has("persistent_undo")
     set undofile
