@@ -8,10 +8,8 @@ map <silent> <Leader>c <Esc>:ClangCloseWindow<CR>
 
 " Disable auto completion for vim-clang.
 let g:clang_auto = 0
-
-" Default 'longest' can not work with neocomplete.
-let g:clang_c_completeopt = 'menuone,preview'
-let g:clang_cpp_completeopt = 'menuone,preview'
+let g:clang_c_completeopt   = 'longest,menuone,preview'
+let g:clang_cpp_completeopt = 'longest,menuone,preview'
 
 " Use neocomplete.
 if !exists('g:neocomplete#force_omni_input_patterns')

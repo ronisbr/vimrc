@@ -27,10 +27,11 @@ noremap  <silent> <Down> gj
 noremap  <silent> <Home> g<Home>
 noremap  <silent> <End>  g<End>
 
-inoremap <expr> <silent> <Up>    pumvisible() ? "\<Up>"      : "\<C-o>gk"
-inoremap <expr> <silent> <Down>  pumvisible() ? "\<Down>"    : "\<C-o>gj"
-inoremap <expr> <silent> <Home>  pumvisible() ? "\<Home>"    : "\<C-o>g\<Home>"
-inoremap <expr> <silent> <End>   pumvisible() ? "\<End>"     : "\<C-o>g\<End>"
+inoremap <expr><silent><Up>     pumvisible() ? "\<Up>"      : "\<C-o>gk"
+inoremap <expr><silent><Down>   pumvisible() ? "\<Down>"    : "\<C-o>gj"
+inoremap <expr><silent><Home>   pumvisible() ? "\<Home>"    : "\<C-o>g\<Home>"
+inoremap <expr><silent><End>    pumvisible() ? "\<End>"     : "\<C-o>g\<End>"
+inoremap <expr><silent><CR>     pumvisible() ? "\<C-y>"     : "\<CR>"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
