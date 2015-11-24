@@ -7,7 +7,6 @@ let g:Tex_MultipleCompileFormats = 'pdf, aux'
 let g:Tex_CompileRule_pdf        = 'pdflatex -interaction=nonstopmode -synctex=1' 
 let g:tex_conceal                = ""
 let g:Tex_ViewRule_pdf           = 'okular --unique'
-let g:Tex_UsePython              = 0
 
 augroup FileType_LaTeX
     " Remove color column when editing LaTeX files.
