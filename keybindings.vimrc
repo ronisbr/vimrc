@@ -37,7 +37,7 @@ inoremap <expr><silent><CR>     pumvisible() ? "\<C-y>"     : "\<CR>"
 " Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" " SuperTab like snippets behavior.
+" SuperTab like snippets behavior.
 imap <expr><TAB> neosnippet#expandable_or_jumpable() ?
  \ "\<Plug>(neosnippet_expand_or_jump)"
  \: pumvisible() ? "\<C-n>" : "\<TAB>"
@@ -54,3 +54,6 @@ nmap <F7> :GundoToggle<CR>
 " TAGBAR
 nmap <F8> :TagbarToggle<CR>
 
+" hlsearch
+" This unset the "last search pattern" register.
+nnoremap <silent><Leader>hc :call HLNextOff()<CR>:nohlsearch<CR>

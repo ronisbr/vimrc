@@ -59,10 +59,6 @@ set smartcase
 
 set hlsearch
 
-" This unset the "last search pattern" register by hitting return after a
-" search.
-nnoremap    <silent>    <CR>    :call HLNextOff()<CR>:nohlsearch<CR>
-
 " Set wrapping.
 set wrap linebreak nolist
 set display+=lastline
